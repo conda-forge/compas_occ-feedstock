@@ -5,7 +5,7 @@ Home: http://github.com/compas-dev/compas_occ
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/compas_occ-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/compas_occ-feedstock/blob/main/LICENSE.txt)
 
 Summary: COMPAS wrappers for OCC
 
@@ -24,8 +24,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14296&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/compas_occ-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14296&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/compas_occ-feedstock?branchName=main">
       </a>
     </td>
   </tr>
