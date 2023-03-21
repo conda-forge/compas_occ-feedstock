@@ -1,11 +1,11 @@
-About compas_occ
-================
+About compas_occ-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/compas_occ-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/compas-dev/compas_occ
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/compas_occ-feedstock/blob/main/LICENSE.txt)
 
 Summary: COMPAS wrappers for OCC
 
