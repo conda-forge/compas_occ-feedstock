@@ -11,15 +11,15 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
   run:
-    - python >=3.6
+    - python >=3.8
     - compas
     - nptyping
     - typing_extensions
@@ -44,5 +44,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - brgcode
+    - tomvanmele
     - licini
