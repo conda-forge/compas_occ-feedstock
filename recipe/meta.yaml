@@ -1,5 +1,5 @@
 {% set name = "compas_occ" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9c73f70241c8d5cd5493b4007f0e6d93625151b318170b0ab6003ec324c77387
+  sha256: 38499a7cf3abd2685cddf9901eb513a28c388c9635c0449f45d8691a1500cc15
 
 build:
   noarch: python
