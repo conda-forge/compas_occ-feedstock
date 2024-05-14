@@ -1,5 +1,5 @@
 {% set name = "compas_occ" %}
-{% set version = "1.0.2" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 38499a7cf3abd2685cddf9901eb513a28c388c9635c0449f45d8691a1500cc15
+  sha256: 449e2656d24ca1d79d85c31f9ccec2d40b6ebb8b169d2f5c6e7c784746d6c392
 
 build:
   noarch: python
@@ -16,13 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.9
     - pip
   run:
-    - python >=3.8
+    - python >=3.9
     - compas
-    - nptyping
-    - typing_extensions
     - pythonocc-core
 
 test:
