@@ -1,17 +1,17 @@
 {% set name = "compas_occ" %}
-{% set version = "1.2.1" %}
+{% set version = "1.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6a7851ab0212e8eae7b1a40db32a99d42b8a83e687db69fe6df718b72cb78257
+  url: https://github.com/compas-dev/{{ name }}/archive/v{{ version }}.tar.gz
+  sha256: 4dd0982b866e535c11c65e35ad8d0f6a5c932e6a5b53a441d3b531cec43c987c
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
