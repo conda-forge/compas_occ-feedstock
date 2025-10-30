@@ -1,5 +1,5 @@
 {% set name = "compas_occ" %}
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/compas-dev/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: bd38045426fcffd269411ea4cf35dd59fcf6a4e07b533469779299756bc9577a
+  sha256: 12542f518c85651e4968d2f8b84e60b15370d4e3d95ee7b5645886ff32a3aaf5
 
 build:
   noarch: python
