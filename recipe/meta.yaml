@@ -1,5 +1,5 @@
 {% set name = "compas_occ" %}
-{% set version = "1.4.2" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/compas-dev/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 2f8a5b438a6d5dd7236d28ffe0c8e4f4a3fbc814033d3331f622b55778ca3ce4
+  sha256: 72d430d56512ab11d7077eabdc01a69b4e9e2c1962511c2cb02764b0f317aaa6
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - compas
-    - pythonocc-core <7.8
+    - pythonocc-core
 
 test:
   requires:
